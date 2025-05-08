@@ -44,8 +44,9 @@ const user = {
 };
 here T is the object type and K hold the keys of that type as union. and T[K] is the type of the property. so now it is fully type safe.
 
-
+```
 ## 3. The difference between any, unknown, and never types in TypeScript:
+
 ### any:
 any is like turning off TypeScript to check the type. It gives you flexibility to declare and assign values exactly like JavaScript. You can reassign any value to a variable. For example, if you declare a variable and assign a number to it, you can reassign the value to a string in the next line.
 
